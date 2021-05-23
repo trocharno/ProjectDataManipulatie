@@ -61,7 +61,7 @@
             Style="{StaticResource MaterialDesignRaisedButton}"
             Width="100"
             ToolTip="Resource name: MaterialDesignRaisedButton"
-            Grid.Column="5">
+            Grid.Column="5" Click="btnSearch_Click" Background="Black" BorderBrush="#FF4D4D4D">
             Search
         </Button>
         <DataGrid x:Name="dataMTG" AutoGenerateColumns="True" Grid.Row="1" Grid.ColumnSpan="5" Grid.RowSpan="2" Margin="10" IsReadOnly="True"/>

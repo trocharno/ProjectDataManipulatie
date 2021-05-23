@@ -25,5 +25,10 @@ namespace MagicTheGathering
             InitializeComponent();
             
         }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
